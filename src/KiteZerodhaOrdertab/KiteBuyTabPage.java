@@ -10,7 +10,7 @@ public class KiteBuyTabPage
 	
 	@FindBy(xpath="//input[@step='1']") private WebElement qty;
 	@FindBy(xpath="//button[@type='submit']") private WebElement buybtn;
-	@FindBy(xpath="//label[@for='radio-196']") private WebElement marketbtn;
+	@FindBy(xpath="//input[@id='radio-196']") private WebElement marketbtn;
 	@FindBy(xpath="//label[@for='radio-191']") private WebElement longtermbtn;
 	
 	
@@ -32,11 +32,9 @@ public class KiteBuyTabPage
 		qty.sendKeys("10");
 	}
 	
-	public void clickKiteBuyTabPage_marketbtn() throws InterruptedException 
+	public void clickKiteBuyTabPage_marketbtn()
 	{
 		marketbtn.click();
-		Thread.sleep(3000);
-		
 	}
 	
 	
