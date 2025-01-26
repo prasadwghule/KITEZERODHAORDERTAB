@@ -27,7 +27,7 @@ public class KiteLogin1Page
 	public void setKiteLogin1Pagepwd()
 	{
 		pwd.sendKeys("Vijay@123");
-		System.out.println("om");
+		System.out.println("omp");
 	}
 	
 	public void clickKiteLogin1Pagelogin()
